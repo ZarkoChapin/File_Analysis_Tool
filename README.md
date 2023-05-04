@@ -3,6 +3,9 @@
 # Introduction
 Welcome to a basic file analyis tool created in python. This tool runs a variety of functions that can help the user collect metadata of files/directories, search for files, generate hashes, etc. More detailed descriptions will be given for each of the 7 functions this script has. To run, make sure you have python installed.
 
+# Requirements
+This script only requires installation of the latest version of python, which can be found at https://www.python.org/downloads/
+
 # Functions
 This script houses 7 different functions that help with basic file/directory analysis. I will explain the details of each function below:
 
@@ -19,5 +22,8 @@ This script houses 7 different functions that help with basic file/directory ana
 6) Output to CSV: This function will ask the user for a directory they would like to get data from. Once this is input, the function takes the file name, file type, md5 hash, created time, modified time, accessed time, and malware status and outputs it to a file named "file_info.csv" to the users Desktop. The csv file is neatly formatted with all of the information on each file in the directory given.
 
 7) Check for Compressed files: This function will check a file/directory for any signs of file compression. This will work on individual files as well as directories. If given a directory, the script will print out each file in that directory and let the user know if it is compressed or not. The files that are compressed will display a "***HIT***" tag before the user. It will then show the size of the file.
+
+#Contribute
+Feel free to contribute and make this script offer more functionality!
 
 I plan on adding to this script actively, as I want it to be the most powerful tool it can be. There are certainly other functions that could be added to assist with any defensive capabilites. In the meantime, thank you for using this script and I hope it helps!
