@@ -23,7 +23,7 @@ This script houses 7 different functions that help with basic file/directory ana
 
 7) Check for Compressed files: This function will check a file/directory for any signs of file compression. This will work on individual files as well as directories. If given a directory, the script will print out each file in that directory and let the user know if it is compressed or not. The files that are compressed will display a "***HIT***" tag before the user. It will then show the size of the file.
 
-#Contribute
+# Contribute
 Feel free to contribute and make this script offer more functionality!
 
 I plan on adding to this script actively, as I want it to be the most powerful tool it can be. There are certainly other functions that could be added to assist with any defensive capabilites. In the meantime, thank you for using this script and I hope it helps!
