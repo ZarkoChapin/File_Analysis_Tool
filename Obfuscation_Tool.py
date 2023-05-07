@@ -12,7 +12,7 @@ import zipfile
 import tarfile
 
 
-VIRUS_TOTAL_API = "e7441dfb5cf999eb0caa336b2c4bb246e243cdd11c616f5d46e537d375f67d3d"
+VIRUS_TOTAL_API = "***YOUR API HERE***"
 supported_extensions = [".zip", ".sitx", ".tar", ".gz", ".tgz", ".rar", ".7z"]
 
 
